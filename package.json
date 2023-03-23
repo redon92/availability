@@ -1,0 +1,33 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.14.5",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.31",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "postcss-import": "^14.0.2",
+        "postcss-nested": "^5.0.5",
+        "postcss-simple-vars": "^6.0.3",
+        "tailwindcss": "^2.0.2",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "@tailwindcss/forms": "^0.3.3",
+        "@tailwindcss/typography": "^0.4.1",
+        "alpinejs": "^2.7.3",
+        "moment": "^2.29.4",
+        "react": "^17.0.2",
+        "react-calendar": "^4.0.0",
+        "react-dom": "^17.0.2"
+    }
+}
